@@ -3,21 +3,21 @@
  * A module for handling payment button integration and functionality
  */
 
-// Core Constants
-const BUTTON_THEMES = {
-  RZP_DARK_STANDARD: 'rzp-dark-standard',
-  RZP_OUTLINE_STANDARD: 'rzp-outline-standard',
-  RZP_LIGHT_STANDARD: 'rzp-light-standard',
-  BRAND_COLOR: 'brand-color'
-};
+// // Core Constants
+// const BUTTON_THEMES = {
+//   RZP_DARK_STANDARD: 'rzp-dark-standard',
+//   RZP_OUTLINE_STANDARD: 'rzp-outline-standard',
+//   RZP_LIGHT_STANDARD: 'rzp-light-standard',
+//   BRAND_COLOR: 'brand-color'
+// };
 
-// Core Config
-const CONFIG = {
-  API_BASE_URL: 'https://api.razorpay.com/v1',
-  SENTRY_DSN: 'https://a9fa294c5e224e028cc57801fee46dd0@o515678.ingest.sentry.io/6726576',
-  COLOR_JS_URL: 'https://cdn.razorpay.com/static/assets/color.js',
-  ANALYTICS_URL: 'https://cdn.razorpay.com/static/analytics/bundle.js'
-};
+// // Core Config
+// const CONFIG = {
+//   API_BASE_URL: 'https://api.razorpay.com/v1',
+//   SENTRY_DSN: 'https://a9fa294c5e224e028cc57801fee46dd0@o515678.ingest.sentry.io/6726576',
+//   COLOR_JS_URL: 'https://cdn.razorpay.com/static/assets/color.js',
+//   ANALYTICS_URL: 'https://cdn.razorpay.com/static/analytics/bundle.js'
+// };
 
 // Store Management
 class Store {
