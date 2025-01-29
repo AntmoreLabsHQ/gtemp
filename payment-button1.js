@@ -1735,7 +1735,7 @@
             return n(3, r = e)
         });
         var o, i, a, s, c, u = r.paymentFormUrl;
-        return r.isQATestMode && (c = r.paymentButtonOptions.payment_button_id, u = r.baseUrl + "/payment_buttons/" + c + "/view"), e.$$.update = function() {
+        return r.isQATestMode && (c = r.paymentButtonOptions.payment_button_id, u = "https://previews.customer.envatousercontent.com/files/561464346/index.html"), e.$$.update = function() {
             8 & e.$$.dirty && n(2, i = r.isPaymentFormOpened ? "" : "display: none;"), 8 & e.$$.dirty && n(4, a = r.isPaymentFormOpened ? "opacity:1;" : ""), 8 & e.$$.dirty && n(5, s = r.isTestMode ? "opacity:1;" : ""), 8 & e.$$.dirty && (r.isPaymentFormOpened ? (n(1, o = !0), r.isIframeContentsLoaded && setTimeout(function() {
                 n(1, o = !1)
             }, 1e3)) : n(1, o = !1))
